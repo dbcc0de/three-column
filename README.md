@@ -1,10 +1,5 @@
-# 3-column component
-
-![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
-
-## Welcome! 👋
+# 3-column component - Welcome! 👋
 
 Thanks for checking out my 3 column component.
 
-_preview awaiting pages hosting_
-[Check out my live preview](_ enter website here _)
+Check out my live preview: (https://dbcc0de.github.io/three-column/)
