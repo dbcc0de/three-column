@@ -1,0 +1,82 @@
+/* font-family: "Big Shoulders Display", cursive;
+font-family: "Lexend Deca", sans-serif; */
+/* resets */
+
+body,
+h2,
+p {
+  margin: 0;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+#card-container h2 {
+  font-family: "Big Shoulders Display", cursive;
+  margin: 10px 0;
+  font-size: 32px;
+}
+
+#card-container p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+#card-container a {
+  text-decoration: none;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+#card-container a:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+#card-container section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+#sedan-container {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#sedan-container a {
+  color: hsl(31, 77%, 52%);
+}
+
+#SUVs-container {
+  background-color: hsl(184, 100%, 22%);
+}
+
+#SUVs-container a {
+  color: hsl(184, 100%, 22%);
+}
+
+#luxury-container {
+  background-color: hsl(179, 100%, 13%);
+}
+
+#luxury-container a {
+  color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 768px) {
+  #card-container {
+    flex-direction: row;
+  }
+}
